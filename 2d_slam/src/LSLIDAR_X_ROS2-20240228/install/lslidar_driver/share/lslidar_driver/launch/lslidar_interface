@@ -1,0 +1,21 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        # 启动硬件接口节点
+        Node(
+            package='lslidar',
+            executable='lsn10_launch',
+            name='lslidar_node',
+            output='screen',
+        ),
+        # 启动 controller_manager
+        Node(
+            package='controller_manager',
+            executable='controller_manager',
+            name='controller_manager',
+            output='screen',
+            parameters=[{'use_sim_time': False}],  # 如果使用仿真时间，设置为 True
+        ),
+    ])

@@ -1,0 +1,25 @@
+[1.286s] Invoking command in '/home/nvidia/ros2_ws/src/robot_nav': PYTHONPATH=/home/nvidia/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nav build --build-base /home/nvidia/ros2_ws/build/robot_nav/build install --record /home/nvidia/ros2_ws/build/robot_nav/install.log --single-version-externally-managed install_data
+[1.753s] running egg_info
+[1.754s] writing ../../build/robot_nav/robot_nav.egg-info/PKG-INFO
+[1.755s] writing dependency_links to ../../build/robot_nav/robot_nav.egg-info/dependency_links.txt
+[1.755s] writing entry points to ../../build/robot_nav/robot_nav.egg-info/entry_points.txt
+[1.755s] writing requirements to ../../build/robot_nav/robot_nav.egg-info/requires.txt
+[1.756s] writing top-level names to ../../build/robot_nav/robot_nav.egg-info/top_level.txt
+[1.760s] reading manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+[1.764s] writing manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+[1.765s] running build
+[1.765s] running build_py
+[1.765s] running install
+[1.768s] running install_lib
+[1.769s] running install_data
+[1.769s] copying config/nav2_params.yaml -> /home/nvidia/ros2_ws/install/robot_nav/share/robot_nav/config
+[1.770s] running install_egg_info
+[1.775s] removing '/home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.1-py3.10.egg-info' (and everything under it)
+[1.775s] Copying ../../build/robot_nav/robot_nav.egg-info to /home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.1-py3.10.egg-info
+[1.777s] running install_scripts
+[1.816s] Installing cmd_vel_mux script to /home/nvidia/ros2_ws/install/robot_nav/lib/robot_nav
+[1.818s] Installing map_converter script to /home/nvidia/ros2_ws/install/robot_nav/lib/robot_nav
+[1.818s] Installing odom_converter script to /home/nvidia/ros2_ws/install/robot_nav/lib/robot_nav
+[1.818s] Installing odom_to_tf script to /home/nvidia/ros2_ws/install/robot_nav/lib/robot_nav
+[1.818s] writing list of installed files to '/home/nvidia/ros2_ws/build/robot_nav/install.log'
+[1.904s] Invoked command in '/home/nvidia/ros2_ws/src/robot_nav' returned '0': PYTHONPATH=/home/nvidia/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nav build --build-base /home/nvidia/ros2_ws/build/robot_nav/build install --record /home/nvidia/ros2_ws/build/robot_nav/install.log --single-version-externally-managed install_data

@@ -1,0 +1,1 @@
+[0.050s] Invoking command in '/home/nvidia/2d_slam/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/2d_slam/build/fishbot_cartographer -- -j8 -l8

@@ -1,0 +1,17 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/nvidia/ros2_ws (copy)/build/camera_publisher/CMakeCache.txt is different than the directory /home/nvidia/ros2_ws/build/camera_publisher where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+-- Install configuration: ""
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/ament_index/resource_index/package_run_dependencies/camera_publisher
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/ament_index/resource_index/parent_prefix_path/camera_publisher
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/path.sh
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/path.dsv
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.bash
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.sh
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.zsh
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.dsv
+-- Installing: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/package.dsv
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/ament_index/resource_index/packages/camera_publisher
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig.cmake
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig-version.cmake
+-- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/package.xml

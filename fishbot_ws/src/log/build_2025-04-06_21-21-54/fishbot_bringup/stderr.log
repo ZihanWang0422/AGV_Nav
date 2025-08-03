@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/nvidia/roadRunner/fishbot_ws/src/build/fishbot_bringup/CMakeCache.txt is different than the directory /home/nvidia/fishbot_ws/src/build/fishbot_bringup where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

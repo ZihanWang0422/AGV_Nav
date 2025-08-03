@@ -1,0 +1,23 @@
+[1.369s] Invoking command in '/home/nvidia/fishbot_ws/build/fishbot_description': PYTHONPATH=/home/nvidia/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nvidia/fishbot_ws/build/fishbot_description/build --no-deps symlink_data
+[1.837s] running develop
+[2.143s] running egg_info
+[2.143s] creating fishbot_description.egg-info
+[2.143s] writing fishbot_description.egg-info/PKG-INFO
+[2.144s] writing dependency_links to fishbot_description.egg-info/dependency_links.txt
+[2.144s] writing entry points to fishbot_description.egg-info/entry_points.txt
+[2.144s] writing requirements to fishbot_description.egg-info/requires.txt
+[2.144s] writing top-level names to fishbot_description.egg-info/top_level.txt
+[2.145s] writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[2.148s] reading manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[2.149s] writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+[2.151s] running build_ext
+[2.152s] Creating /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+[2.153s] 
+[2.153s] Installed /home/nvidia/fishbot_ws/build/fishbot_description
+[2.154s] running symlink_data
+[2.154s] creating /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index
+[2.154s] creating /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index
+[2.154s] creating /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[2.154s] symbolically linking /home/nvidia/fishbot_ws/build/fishbot_description/resource/fishbot_description -> /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[2.154s] symbolically linking /home/nvidia/fishbot_ws/build/fishbot_description/package.xml -> /home/nvidia/fishbot_ws/install/fishbot_description/share/fishbot_description
+[2.242s] Invoked command in '/home/nvidia/fishbot_ws/build/fishbot_description' returned '0': PYTHONPATH=/home/nvidia/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nvidia/fishbot_ws/build/fishbot_description/build --no-deps symlink_data

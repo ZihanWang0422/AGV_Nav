@@ -1,0 +1,300 @@
+[0.203s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.203s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8e047700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e046d40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e046d40>>, mixin_verb=('build',))
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.518s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nvidia/fishbot_ws/src'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.518s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_bringup) by extension 'ros'
+[0.544s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_bringup' with type 'ros.ament_cmake' and name 'fishbot_bringup'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_cartographer) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_cartographer' with type 'ros.ament_cmake' and name 'fishbot_cartographer'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_description) by extension 'ros'
+[0.549s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(fishbot_navigation2) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'fishbot_navigation2' with type 'ros.ament_cmake' and name 'fishbot_navigation2'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.625s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 408 installed packages in /opt/ros/humble
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.708s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.709s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/fishbot_ws/src/build/fishbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/fishbot_ws/src/install/fishbot_bringup', 'merge_install': False, 'path': '/home/nvidia/fishbot_ws/src/fishbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.709s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer', 'merge_install': False, 'path': '/home/nvidia/fishbot_ws/src/fishbot_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.710s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.710s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/fishbot_ws/src/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/fishbot_ws/src/install/fishbot_description', 'merge_install': False, 'path': '/home/nvidia/fishbot_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.711s] Level 5:colcon.colcon_core.verb:set package 'fishbot_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.711s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nvidia/fishbot_ws/src/build/fishbot_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2', 'merge_install': False, 'path': '/home/nvidia/fishbot_ws/src/fishbot_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.712s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.714s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.714s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/fishbot_ws/src/fishbot_bringup' with build type 'ament_cmake'
+[0.715s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/fishbot_ws/src/fishbot_bringup'
+[0.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.719s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.725s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/fishbot_ws/src/fishbot_cartographer' with build type 'ament_cmake'
+[0.725s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/fishbot_ws/src/fishbot_cartographer'
+[0.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.731s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nvidia/fishbot_ws/src/fishbot_description' with build type 'ament_python'
+[0.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'ament_prefix_path')
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.ps1'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.dsv'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.sh'
+[0.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nvidia/fishbot_ws/src/fishbot_navigation2' with build type 'ament_cmake'
+[0.739s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nvidia/fishbot_ws/src/fishbot_navigation2'
+[0.740s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.740s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_bringup -- -j8 -l8
+[0.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_cartographer -- -j8 -l8
+[1.324s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nvidia/fishbot_ws/src/fishbot_description'
+[1.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.325s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_cartographer -- -j8 -l8
+[1.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_cartographer
+[1.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_bringup -- -j8 -l8
+[1.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_bringup
+[1.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_navigation2 -- -j8 -l8
+[1.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_cartographer)
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_cartographer
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer' for CMake module files
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer' for CMake config files
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[1.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/bin'
+[1.393s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/lib/python3.10/site-packages'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/bin'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[1.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[1.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[1.405s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_cartographer)
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer' for CMake module files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer' for CMake config files
+[1.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/bin'
+[1.411s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/lib/python3.10/site-packages'
+[1.412s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/bin'
+[1.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[1.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[1.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[1.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_bringup)
+[1.423s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup' for CMake module files
+[1.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_bringup
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup' for CMake config files
+[1.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_bringup', 'cmake_prefix_path')
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.sh'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/bin'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/pkgconfig/fishbot_bringup.pc'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/python3.10/site-packages'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/bin'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.sh'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.bash'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.zsh'
+[1.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/colcon-core/packages/fishbot_bringup)
+[1.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_bringup)
+[1.438s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup' for CMake module files
+[1.439s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup' for CMake config files
+[1.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_bringup', 'cmake_prefix_path')
+[1.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.ps1'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.dsv'
+[1.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/hook/cmake_prefix_path.sh'
+[1.442s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/bin'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/pkgconfig/fishbot_bringup.pc'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/python3.10/site-packages'
+[1.443s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/bin'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.ps1'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.bash'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.zsh'
+[1.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/colcon-core/packages/fishbot_bringup)
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_navigation2 -- -j8 -l8
+[1.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_navigation2
+[1.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2' for CMake module files
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2' for CMake config files
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_navigation2
+[1.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/bin'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/lib/python3.10/site-packages'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/bin'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[1.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[1.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_navigation2)
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2' for CMake module files
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2' for CMake config files
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_navigation2', 'cmake_prefix_path')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.dsv'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/hook/cmake_prefix_path.sh'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/lib/pkgconfig/fishbot_navigation2.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/lib/python3.10/site-packages'
+[1.498s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/bin'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.bash'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/fishbot_navigation2/package.zsh'
+[1.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_navigation2/share/colcon-core/packages/fishbot_navigation2)
+[2.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nvidia/fishbot_ws/src/fishbot_description': PYTHONPATH=/home/nvidia/fishbot_ws/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/nvidia/fishbot_ws/src/build/fishbot_description/build install --record /home/nvidia/fishbot_ws/src/build/fishbot_description/install.log --single-version-externally-managed install_data
+[2.629s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description' for CMake module files
+[2.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nvidia/fishbot_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/nvidia/fishbot_ws/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fishbot_description build --build-base /home/nvidia/fishbot_ws/src/build/fishbot_description/build install --record /home/nvidia/fishbot_ws/src/build/fishbot_description/install.log --single-version-externally-managed install_data
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description' for CMake config files
+[2.632s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description/bin'
+[2.633s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[2.634s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages'
+[2.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'pythonpath')
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/hook/pythonpath.ps1'
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/hook/pythonpath.dsv'
+[2.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/hook/pythonpath.sh'
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/nvidia/fishbot_ws/src/install/fishbot_description/bin'
+[2.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.ps1'
+[2.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.dsv'
+[2.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.sh'
+[2.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.bash'
+[2.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/nvidia/fishbot_ws/src/install/fishbot_description/share/fishbot_description/package.zsh'
+[2.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nvidia/fishbot_ws/src/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[2.652s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.654s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.654s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.654s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.675s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.726s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/fishbot_ws/src/install/local_setup.ps1'
+[2.730s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/fishbot_ws/src/install/_local_setup_util_ps1.py'
+[2.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/fishbot_ws/src/install/setup.ps1'
+[2.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/fishbot_ws/src/install/local_setup.sh'
+[2.738s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nvidia/fishbot_ws/src/install/_local_setup_util_sh.py'
+[2.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/fishbot_ws/src/install/setup.sh'
+[2.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/fishbot_ws/src/install/local_setup.bash'
+[2.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/fishbot_ws/src/install/setup.bash'
+[2.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nvidia/fishbot_ws/src/install/local_setup.zsh'
+[2.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nvidia/fishbot_ws/src/install/setup.zsh'

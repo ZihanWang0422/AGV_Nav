@@ -1,0 +1,15 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # 控制器更新频率（Hz）
+
+diff_drive_controller:
+  ros__parameters:
+    left_wheel: ['left_wheel_joint']  # 左轮关节名称
+    right_wheel: ['right_wheel_joint']  # 右轮关节名称
+    wheel_separation: 0.5  # 轮距（左右轮中心距离）
+    wheel_radius: 0.1  # 车轮半径
+    publish_rate: 50.0  # 发布里程计的频率（Hz）
+    base_frame_id: "base_link"  # 机器人基坐标系
+    odom_frame_id: "odom"  # 里程计坐标系
+    pose_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]  # 位姿协方差
+    twist_covariance_diagonal: [0.001, 0.001, 0.001, 0.001, 0.001, 0.001]  # 速度协方差

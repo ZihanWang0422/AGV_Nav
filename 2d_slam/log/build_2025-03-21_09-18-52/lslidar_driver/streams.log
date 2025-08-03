@@ -1,0 +1,191 @@
+[0.020s] Invoking command in '/home/nvidia/2d_slam/build/lslidar_driver': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/lslidar_driver
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.392s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.414s] -- Detecting C compile features - done
+[0.419s] -- Detecting CXX compiler ABI info
+[0.575s] -- Detecting CXX compiler ABI info - done
+[0.600s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.601s] -- Detecting CXX compile features
+[0.604s] -- Detecting CXX compile features - done
+[0.950s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.959s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.285s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.552s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.559s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.574s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.690s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.694s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.833s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.888s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.976s] -- Found Threads: TRUE  
+[2.082s] -- Checking for module 'eigen3'
+[2.101s] --   Found eigen3, version 3.4.0
+[2.165s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.165s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.208s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.243s] -- Checking for module 'flann'
+[2.270s] --   Found flann, version 1.9.1
+[2.359s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.359s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[2.435s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[2.447s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.723s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[2.723s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.728s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.747s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[2.782s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.812s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[2.997s] -- Found X11: /usr/include   
+[3.001s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[3.141s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[3.141s] -- Looking for gethostbyname
+[3.276s] -- Looking for gethostbyname - found
+[3.276s] -- Looking for connect
+[3.402s] -- Looking for connect - found
+[3.402s] -- Looking for remove
+[3.542s] -- Looking for remove - found
+[3.542s] -- Looking for shmat
+[3.680s] -- Looking for shmat - found
+[3.681s] -- Looking for IceConnectionNumber in ICE
+[3.830s] -- Looking for IceConnectionNumber in ICE - found
+[4.010s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[4.015s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[4.021s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[4.026s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[4.060s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[4.074s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[4.083s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[4.094s] -- Found utf8cpp: /usr/include/utf8cpp  
+[4.256s] -- Checking for module 'libusb-1.0'
+[4.286s] --   Found libusb-1.0, version 1.0.25
+[4.371s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[4.376s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.377s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.520s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.521s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.522s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.796s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.809s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.823s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.072s] -- Found Qhull version 8.0.2
+[5.338s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.586s] -- looking for PCL_COMMON
+[5.594s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[5.594s] -- looking for PCL_KDTREE
+[5.596s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[5.597s] -- looking for PCL_OCTREE
+[5.601s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[5.602s] -- looking for PCL_SEARCH
+[5.605s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[5.605s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.606s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[5.606s] -- looking for PCL_FILTERS
+[5.608s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[5.608s] -- looking for PCL_2D
+[5.609s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.609s] -- looking for PCL_GEOMETRY
+[5.609s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.609s] -- looking for PCL_IO
+[5.611s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[5.611s] -- looking for PCL_FEATURES
+[5.612s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[5.613s] -- looking for PCL_ML
+[5.614s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[5.614s] -- looking for PCL_SEGMENTATION
+[5.615s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[5.616s] -- looking for PCL_VISUALIZATION
+[5.617s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[5.617s] -- looking for PCL_SURFACE
+[5.619s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[5.619s] -- looking for PCL_REGISTRATION
+[5.620s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[5.620s] -- looking for PCL_KEYPOINTS
+[5.621s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[5.622s] -- looking for PCL_TRACKING
+[5.623s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[5.623s] -- looking for PCL_RECOGNITION
+[5.624s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[5.625s] -- looking for PCL_STEREO
+[5.626s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[5.626s] -- looking for PCL_APPS
+[5.627s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[5.628s] -- looking for PCL_IN_HAND_SCANNER
+[5.628s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.629s] -- looking for PCL_MODELER
+[5.629s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.629s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.630s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.630s] -- looking for PCL_OUTOFCORE
+[5.631s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[5.632s] -- looking for PCL_PEOPLE
+[5.632s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[5.634s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[5.640s] -- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.676s] -- Found lslidar_msgs: 1.2.0 (/home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[5.699s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.744s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[5.991s] -- Configuring done
+[6.117s] -- Generating done
+[6.139s] -- Build files have been written to: /home/nvidia/2d_slam/build/lslidar_driver
+[6.191s] Invoked command in '/home/nvidia/2d_slam/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/lslidar_driver
+[6.195s] Invoking command in '/home/nvidia/2d_slam/build/lslidar_driver': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/2d_slam/build/lslidar_driver -- -j8 -l8
+[6.299s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[6.299s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[6.300s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/input.cc.o[0m
+[6.300s] [ 80%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lsiosr.cpp.o[0m
+[37.234s] [100%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[40.841s] [100%] Built target lslidar_driver_node
+[40.870s] Invoked command in '/home/nvidia/2d_slam/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nvidia/2d_slam/build/lslidar_driver -- -j8 -l8
+[40.877s] Invoking command in '/home/nvidia/2d_slam/build/lslidar_driver': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/2d_slam/build/lslidar_driver
+[40.894s] -- Install configuration: ""
+[40.895s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch
+[40.895s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[40.895s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[40.896s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[40.896s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[40.897s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[40.897s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[40.897s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[40.898s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[40.898s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[40.898s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[40.899s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params
+[40.899s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[40.900s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/rviz
+[40.901s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[40.902s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[40.913s] -- Set runtime path of "/home/nvidia/2d_slam/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[40.913s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[40.914s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[40.914s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[40.914s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[40.914s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[40.915s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[40.915s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[40.915s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[40.916s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[40.916s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[40.916s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/package.dsv
+[40.917s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[40.917s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.917s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.918s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[40.918s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[40.918s] -- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/package.xml
+[40.923s] Invoked command in '/home/nvidia/2d_slam/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nvidia/2d_slam/build/lslidar_driver

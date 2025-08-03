@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating fishbot_description.egg-info
+writing fishbot_description.egg-info/PKG-INFO
+writing dependency_links to fishbot_description.egg-info/dependency_links.txt
+writing entry points to fishbot_description.egg-info/entry_points.txt
+writing requirements to fishbot_description.egg-info/requires.txt
+writing top-level names to fishbot_description.egg-info/top_level.txt
+writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+reading manifest file 'fishbot_description.egg-info/SOURCES.txt'
+writing manifest file 'fishbot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+
+Installed /home/nvidia/fishbot_ws/build/fishbot_description
+running symlink_data
+creating /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index
+creating /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index
+creating /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+symbolically linking /home/nvidia/fishbot_ws/build/fishbot_description/resource/fishbot_description -> /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+symbolically linking /home/nvidia/fishbot_ws/build/fishbot_description/package.xml -> /home/nvidia/fishbot_ws/install/fishbot_description/share/fishbot_description

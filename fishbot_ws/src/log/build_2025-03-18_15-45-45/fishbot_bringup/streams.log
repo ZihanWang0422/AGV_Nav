@@ -1,0 +1,105 @@
+[0.029s] Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/fishbot_ws/src/fishbot_bringup -DCMAKE_INSTALL_PREFIX=/home/nvidia/fishbot_ws/src/install/fishbot_bringup
+[0.132s] -- The C compiler identification is GNU 11.4.0
+[0.232s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.386s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.387s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.399s] -- Detecting CXX compiler ABI info
+[0.545s] -- Detecting CXX compiler ABI info - done
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.575s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.876s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.082s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.164s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.171s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.184s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.299s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.304s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.448s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.507s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.582s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.595s] -- Looking for pthread.h
+[1.718s] -- Looking for pthread.h - found
+[1.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.861s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.863s] -- Found Threads: TRUE  
+[1.953s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.973s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.003s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[2.019s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.160s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.337s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.337s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/fishbot_ws/src/fishbot_bringup/include>
+[2.338s] -- Configured cppcheck exclude dirs and/or files: 
+[2.340s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.344s] -- Added test 'lint_cmake' to check CMake code style
+[2.346s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.361s] -- Added test 'uncrustify' to check C / C++ code style
+[2.361s] -- Configured uncrustify additional arguments: 
+[2.366s] -- Added test 'xmllint' to check XML markup files
+[2.368s] -- Configuring done
+[2.389s] -- Generating done
+[2.396s] -- Build files have been written to: /home/nvidia/fishbot_ws/src/build/fishbot_bringup
+[2.434s] Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/fishbot_ws/src/fishbot_bringup -DCMAKE_INSTALL_PREFIX=/home/nvidia/fishbot_ws/src/install/fishbot_bringup
+[2.440s] Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_bringup -- -j8 -l8
+[2.490s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.743s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.816s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.821s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.831s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.914s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.916s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.173s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.192s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.215s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[3.222s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.336s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.490s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.491s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/fishbot_ws/src/fishbot_bringup/include>
+[3.491s] -- Configured cppcheck exclude dirs and/or files: 
+[3.493s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.497s] -- Added test 'lint_cmake' to check CMake code style
+[3.499s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.513s] -- Added test 'uncrustify' to check C / C++ code style
+[3.514s] -- Configured uncrustify additional arguments: 
+[3.516s] -- Added test 'xmllint' to check XML markup files
+[3.517s] -- Configuring done
+[3.540s] -- Generating done
+[3.547s] -- Build files have been written to: /home/nvidia/fishbot_ws/src/build/fishbot_bringup
+[3.616s] gmake[2]: Warning: File '/home/nvidia/fishbot_ws/src/fishbot_bringup/src/fishbot_bringup.cpp' has modification time 245370 s in the future
+[3.636s] [ 50%] [32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o[0m
+[20.094s] [100%] [32m[1mLinking CXX executable fishbot_bringup[0m
+[20.915s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.930s] [100%] Built target fishbot_bringup
+[20.954s] Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_bringup -- -j8 -l8
+[20.978s] Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_bringup
+[20.991s] -- Install configuration: ""
+[20.992s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup
+[20.998s] -- Set runtime path of "/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup" to ""
+[20.998s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch
+[20.998s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/fishbot_bringup.launch.py
+[20.999s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[20.999s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[21.000s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[21.000s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[21.000s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[21.001s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[21.001s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[21.001s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[21.001s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[21.002s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[21.002s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[21.002s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[21.002s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[21.003s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[21.003s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[21.008s] Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_bringup

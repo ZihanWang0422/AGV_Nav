@@ -1,0 +1,348 @@
+[0.015s] Invoking command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.213s] -- The CXX compiler identification is GNU 11.4.0
+[0.232s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.390s] -- Detecting C compile features
+[0.391s] -- Detecting C compile features - done
+[0.397s] -- Detecting CXX compiler ABI info
+[0.546s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.572s] -- Detecting CXX compile features
+[0.574s] -- Detecting CXX compile features - done
+[0.583s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.889s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.076s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.146s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.154s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.167s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.247s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.292s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.306s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.905s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.008s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.058s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.064s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.126s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.127s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.127s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.127s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.170s] -- Found PythonExtra: .so  
+[3.281s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.286s] -- Added test 'lint_cmake' to check CMake code style
+[3.288s] -- Added test 'xmllint' to check XML markup files
+[3.296s] -- Configuring done
+[3.365s] -- Generating done
+[3.384s] -- Build files have been written to: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs
+[3.418s] Invoked command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/src/lslidar_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs
+[3.425s] Invoking command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs -- -j8 -l8
+[3.513s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.536s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.556s] [  3%] Built target ament_cmake_python_copy_lslidar_msgs
+[4.028s] running egg_info
+[4.030s] creating lslidar_msgs.egg-info
+[4.030s] writing lslidar_msgs.egg-info/PKG-INFO
+[4.030s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[4.031s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[4.031s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[4.034s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[4.035s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[4.107s] [  3%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[4.510s] [  3%] Built target lslidar_msgs__cpp
+[4.519s] [  6%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o[0m
+[4.519s] [  6%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o[0m
+[4.520s] [  7%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o[0m
+[4.525s] [  9%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o[0m
+[4.530s] [ 11%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o[0m
+[4.541s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.542s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.545s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.659s] [ 17%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so[0m
+[4.727s] [ 17%] Built target lslidar_msgs__rosidl_generator_c
+[4.743s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.743s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.743s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.241s] [ 25%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[5.241s] [ 25%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[5.241s] [ 26%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[5.440s] [ 28%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m
+[5.550s] [ 30%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[5.579s] [ 31%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o[0m
+[5.616s] [ 33%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[5.677s] [ 34%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[5.683s] [ 36%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o[0m
+[5.735s] [ 39%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[5.735s] [ 39%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o[0m
+[5.780s] [ 42%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[5.780s] [ 42%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[5.785s] [ 44%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[5.795s] [ 46%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[5.805s] [ 47%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o[0m
+[5.868s] [ 49%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so[0m
+[5.875s] [ 50%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o[0m
+[5.941s] [ 52%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o[0m
+[5.985s] [ 52%] Built target lslidar_msgs__rosidl_typesupport_c
+[6.003s] [ 53%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[6.026s] [ 55%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o[0m
+[6.109s] [ 57%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.185s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[6.199s] [ 58%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[6.203s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[6.299s] [ 61%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[6.348s] [ 63%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[6.359s] [ 65%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[6.393s] [ 66%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[6.434s] [ 66%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[6.450s] [ 68%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[6.534s] [ 69%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o[0m
+[6.661s] [ 71%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o[0m
+[6.960s] [ 73%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[7.024s] [ 74%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o[0m
+[7.324s] [ 76%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.414s] [ 77%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.477s] [ 77%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[7.561s] [ 77%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[7.772s] [ 79%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.905s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[7.945s] [ 79%] Built target lslidar_msgs
+[7.982s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.248s] [ 80%] Built target lslidar_msgs__py
+[9.285s] [ 84%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o[0m
+[9.285s] [ 84%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[9.285s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[9.285s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[9.285s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o[0m
+[9.464s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[9.537s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[9.571s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.571s] [ 93%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.572s] [ 95%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.750s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[9.751s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[9.764s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[9.816s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[9.826s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[9.831s] [100%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.856s] Invoked command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs -- -j8 -l8
+[9.880s] Invoking command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs
+[9.897s] -- Install configuration: ""
+[9.897s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[9.897s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[9.898s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[9.898s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[9.898s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.898s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[9.899s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[9.899s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[9.899s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[9.899s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[9.899s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[9.900s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[9.900s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[9.900s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[9.900s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[9.900s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[9.901s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[9.901s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[9.901s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[9.901s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[9.901s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[9.902s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[9.902s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c
+[9.902s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c
+[9.902s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[9.903s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[9.903s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[9.903s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[9.903s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[9.903s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[9.904s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[9.904s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[9.904s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[9.905s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+[9.905s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[9.905s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[9.906s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[9.906s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[9.906s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[9.906s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[9.906s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[9.907s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[9.907s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.907s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[9.907s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.907s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[9.908s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[9.908s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[9.908s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[9.908s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[9.908s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[9.909s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[9.909s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[9.909s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[9.909s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[9.910s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[9.910s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[9.910s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[9.910s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[9.910s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[9.911s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[9.911s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[9.911s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[9.911s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[9.911s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[9.912s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[9.912s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[9.912s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[9.912s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[9.913s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[9.913s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[9.913s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.913s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[9.913s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[9.913s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[9.914s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[9.914s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[9.914s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[9.914s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[9.914s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[9.915s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[9.915s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[9.915s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[9.915s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.915s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.915s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.916s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[9.916s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[9.916s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.916s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[9.916s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c
+[9.916s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[9.916s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[9.916s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[9.916s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[9.917s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.917s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[9.917s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+[9.918s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[9.918s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[9.918s] -- Up-to-date: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[9.918s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[9.918s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[9.919s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp
+[9.919s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[9.919s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[9.919s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[9.919s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[9.920s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[9.920s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[9.920s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp
+[9.920s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[9.920s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.920s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[9.921s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[9.921s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[9.921s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[9.921s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info
+[9.921s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[9.922s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[9.922s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[9.922s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[9.922s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[9.922s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[9.923s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[9.923s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[9.923s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[9.923s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[9.923s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[9.924s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[9.924s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[9.924s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[9.924s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[9.924s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[9.924s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[9.925s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[9.925s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[9.925s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[9.925s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[9.925s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.926s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.926s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[9.926s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[9.991s] Listing '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[9.991s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[9.992s] Listing '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[9.992s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+[9.992s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...
+[9.992s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+[9.992s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...
+[9.992s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...
+[9.992s] Compiling '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...
+[10.005s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.005s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[10.006s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.006s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[10.006s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.007s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[10.007s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[10.007s] -- Set runtime path of "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[10.008s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[10.008s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[10.008s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[10.008s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[10.008s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[10.009s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[10.009s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[10.009s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[10.009s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[10.009s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[10.010s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[10.010s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[10.010s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[10.010s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[10.011s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[10.011s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[10.011s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[10.011s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[10.011s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[10.012s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[10.012s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[10.012s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[10.013s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[10.013s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.013s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.013s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.013s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[10.014s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.014s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.014s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.014s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.015s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[10.015s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.015s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.015s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.016s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[10.016s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.017s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[10.017s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.017s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[10.018s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.018s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.018s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.019s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.019s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.019s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.019s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[10.020s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[10.020s] -- Installing: /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[10.025s] Invoked command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_msgs

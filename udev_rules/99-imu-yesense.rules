@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty", ATTRS{idProduct}=="55d4", ATTRS{serial}=="58EB011259", SYMLINK+="yesense_imu" 
+

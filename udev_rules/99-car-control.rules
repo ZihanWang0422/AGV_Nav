@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty",ATTRS{serial}=="5959114074",ATTRS{idProduct}=="55d3", ATTRS{idVendor}=="1a86",SYMLINK+="car"
+

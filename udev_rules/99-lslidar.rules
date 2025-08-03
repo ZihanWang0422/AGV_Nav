@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty",ATTRS{idProduct}=="55d4", ATTRS{idVendor}=="1a86",ATTRS{serial}=="5919000657",SYMLINK+="lslidar"
+

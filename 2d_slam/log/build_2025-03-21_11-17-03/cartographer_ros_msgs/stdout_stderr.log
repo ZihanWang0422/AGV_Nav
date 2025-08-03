@@ -1,0 +1,2 @@
+[0mCMake Error: The source directory "/home/nvidia/2d_slam/src/cartographer_ros_msgs" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.[0m

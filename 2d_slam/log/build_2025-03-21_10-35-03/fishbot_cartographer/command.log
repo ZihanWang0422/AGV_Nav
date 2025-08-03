@@ -1,0 +1,6 @@
+Invoking command in '/home/nvidia/2d_slam/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/fishbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/fishbot_cartographer
+Invoked command in '/home/nvidia/2d_slam/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/fishbot_cartographer -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/fishbot_cartographer
+Invoking command in '/home/nvidia/2d_slam/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/2d_slam/build/fishbot_cartographer -- -j8 -l8
+Invoked command in '/home/nvidia/2d_slam/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/2d_slam/build/fishbot_cartographer -- -j8 -l8
+Invoking command in '/home/nvidia/2d_slam/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/2d_slam/build/fishbot_cartographer
+Invoked command in '/home/nvidia/2d_slam/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/2d_slam/build/fishbot_cartographer

@@ -1,0 +1,2 @@
+Invoking command in '/home/nvidia/2d_slam/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/cartographer_ros_msgs
+Invoked command in '/home/nvidia/2d_slam/build/cartographer_ros_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/cartographer_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/cartographer_ros_msgs

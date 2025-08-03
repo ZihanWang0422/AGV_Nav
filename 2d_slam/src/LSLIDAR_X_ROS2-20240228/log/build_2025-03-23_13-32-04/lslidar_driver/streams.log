@@ -1,0 +1,153 @@
+[0.023s] Invoking command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_driver': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_driver
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.261s] -- The CXX compiler identification is GNU 11.4.0
+[0.281s] -- Detecting C compiler ABI info
+[0.429s] -- Detecting C compiler ABI info - done
+[0.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.454s] -- Detecting C compile features
+[0.455s] -- Detecting C compile features - done
+[0.466s] -- Detecting CXX compiler ABI info
+[0.625s] -- Detecting CXX compiler ABI info - done
+[0.650s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.651s] -- Detecting CXX compile features
+[0.652s] -- Detecting CXX compile features - done
+[0.969s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[0.979s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.562s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.571s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.585s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.694s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.698s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.863s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.925s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.016s] -- Found Threads: TRUE  
+[2.128s] -- Checking for module 'eigen3'
+[2.154s] --   Found eigen3, version 3.4.0
+[2.228s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.228s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.271s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.305s] -- Checking for module 'flann'
+[2.336s] --   Found flann, version 1.9.1
+[2.435s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[2.435s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[2.518s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[2.535s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.825s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[2.826s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.834s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.860s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[2.910s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.944s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.138s] -- Found X11: /usr/include   
+[3.139s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[3.283s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[3.283s] -- Looking for gethostbyname
+[3.415s] -- Looking for gethostbyname - found
+[3.416s] -- Looking for connect
+[3.557s] -- Looking for connect - found
+[3.557s] -- Looking for remove
+[3.698s] -- Looking for remove - found
+[3.698s] -- Looking for shmat
+[3.842s] -- Looking for shmat - found
+[3.843s] -- Looking for IceConnectionNumber in ICE
+[3.993s] -- Looking for IceConnectionNumber in ICE - found
+[4.217s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[4.224s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[4.231s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[4.236s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[4.314s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[4.331s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[4.339s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[4.351s] -- Found utf8cpp: /usr/include/utf8cpp  
+[4.535s] -- Checking for module 'libusb-1.0'
+[4.568s] --   Found libusb-1.0, version 1.0.25
+[4.659s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[4.665s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[4.665s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.799s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.800s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.800s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[5.097s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.111s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.125s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.361s] -- Found Qhull version 8.0.2
+[5.611s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.833s] -- looking for PCL_COMMON
+[5.837s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[5.837s] -- looking for PCL_KDTREE
+[5.839s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[5.839s] -- looking for PCL_OCTREE
+[5.840s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[5.840s] -- looking for PCL_SEARCH
+[5.841s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[5.842s] -- looking for PCL_SAMPLE_CONSENSUS
+[5.843s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[5.843s] -- looking for PCL_FILTERS
+[5.844s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[5.845s] -- looking for PCL_2D
+[5.845s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.845s] -- looking for PCL_GEOMETRY
+[5.846s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.846s] -- looking for PCL_IO
+[5.847s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[5.847s] -- looking for PCL_FEATURES
+[5.849s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[5.849s] -- looking for PCL_ML
+[5.850s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[5.850s] -- looking for PCL_SEGMENTATION
+[5.852s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[5.852s] -- looking for PCL_VISUALIZATION
+[5.853s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[5.854s] -- looking for PCL_SURFACE
+[5.855s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[5.855s] -- looking for PCL_REGISTRATION
+[5.857s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[5.858s] -- looking for PCL_KEYPOINTS
+[5.859s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[5.859s] -- looking for PCL_TRACKING
+[5.860s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[5.861s] -- looking for PCL_RECOGNITION
+[5.862s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[5.862s] -- looking for PCL_STEREO
+[5.864s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[5.864s] -- looking for PCL_APPS
+[5.865s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[5.866s] -- looking for PCL_IN_HAND_SCANNER
+[5.866s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.866s] -- looking for PCL_MODELER
+[5.867s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.867s] -- looking for PCL_POINT_CLOUD_EDITOR
+[5.870s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.870s] -- looking for PCL_OUTOFCORE
+[5.872s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[5.872s] -- looking for PCL_PEOPLE
+[5.874s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[5.875s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[5.879s] -- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.914s] -- Found lslidar_msgs: 1.2.0 (/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[5.940s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[5.990s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[6.102s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[6.102s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[6.102s]   asked CMake to find a package configuration file provided by "catkin", but
+[6.102s]   CMake did not find one.
+[6.103s] 
+[6.103s]   Could not find a package configuration file provided by "catkin" with any
+[6.103s]   of the following names:
+[6.103s] 
+[6.103s]     catkinConfig.cmake
+[6.104s]     catkin-config.cmake
+[6.104s] 
+[6.104s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[6.104s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[6.104s]   provides a separate development package or SDK, be sure it has been
+[6.105s]   installed.
+[6.105s] 
+[6.105s] [0m
+[6.105s] -- Configuring incomplete, errors occurred!
+[6.105s] See also "/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_driver/CMakeFiles/CMakeOutput.log".
+[6.148s] Invoked command in '/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/build/lslidar_driver' returned '1': AMENT_PREFIX_PATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:/opt/ros/humble LD_LIBRARY_PATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/src/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/src/LSLIDAR_X_ROS2-20240228/install/lslidar_driver

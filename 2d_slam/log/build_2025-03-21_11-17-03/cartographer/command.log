@@ -1,0 +1,2 @@
+Invoking command in '/home/nvidia/2d_slam/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/cartographer
+Invoked command in '/home/nvidia/2d_slam/build/cartographer' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/cartographer

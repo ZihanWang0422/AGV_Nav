@@ -1,0 +1,1 @@
+/home/nvidia/fishbot_ws/build/fishbot_bringup/ament_cmake_environment_hooks/local_setup.sh

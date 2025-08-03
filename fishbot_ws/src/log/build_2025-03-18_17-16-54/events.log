@@ -1,0 +1,335 @@
+[0.000000] (-) TimerEvent: {}
+[0.001543] (fishbot_bringup) JobQueued: {'identifier': 'fishbot_bringup', 'dependencies': OrderedDict()}
+[0.001862] (fishbot_cartographer) JobQueued: {'identifier': 'fishbot_cartographer', 'dependencies': OrderedDict()}
+[0.002294] (fishbot_description) JobQueued: {'identifier': 'fishbot_description', 'dependencies': OrderedDict()}
+[0.002349] (fishbot_bringup) JobStarted: {'identifier': 'fishbot_bringup'}
+[0.013595] (fishbot_cartographer) JobStarted: {'identifier': 'fishbot_cartographer'}
+[0.021644] (fishbot_description) JobStarted: {'identifier': 'fishbot_description'}
+[0.042177] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'cmake'}
+[0.044462] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'build'}
+[0.044712] (fishbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/fishbot_ws/src/build/fishbot_bringup', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/fishbot_ws/src/build/fishbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tegra-ubuntu:@/tmp/.ICE-unix/2702,unix/tegra-ubuntu:/tmp/.ICE-unix/2702'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae64cfa7_2a92_491a_bc0f_82bff2d50f2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/share/gazebo-11/cmake'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description:/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/fishbot_ws/src/build/fishbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake::/home/nvidia/fishbot_ws/src/install/fishbot_description:/opt/ros/humble')]), 'shell': False}
+[0.051922] (fishbot_cartographer) JobProgress: {'identifier': 'fishbot_cartographer', 'progress': 'cmake'}
+[0.053005] (fishbot_cartographer) Command: {'cmd': ['/usr/bin/cmake', '/home/nvidia/fishbot_ws/src/fishbot_cartographer', '-DCMAKE_INSTALL_PREFIX=/home/nvidia/fishbot_ws/src/install/fishbot_cartographer'], 'cwd': '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tegra-ubuntu:@/tmp/.ICE-unix/2702,unix/tegra-ubuntu:/tmp/.ICE-unix/2702'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae64cfa7_2a92_491a_bc0f_82bff2d50f2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/share/gazebo-11/cmake'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description:/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake::/home/nvidia/fishbot_ws/src/install/fishbot_description:/opt/ros/humble')]), 'shell': False}
+[0.093394] (fishbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097429] (-) TimerEvent: {}
+[0.147677] (fishbot_cartographer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.197591] (-) TimerEvent: {}
+[0.246755] (fishbot_cartographer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.263818] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.297814] (-) TimerEvent: {}
+[0.352649] (fishbot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.397990] (-) TimerEvent: {}
+[0.402865] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.405782] (fishbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.410025] (fishbot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.414994] (fishbot_cartographer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.415459] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.415954] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.420647] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.421156] (fishbot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.436745] (fishbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.463964] (fishbot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.498140] (-) TimerEvent: {}
+[0.519346] (fishbot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.521094] (fishbot_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.585465] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.595512] (fishbot_cartographer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.596114] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.596430] (fishbot_cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.598261] (-) TimerEvent: {}
+[0.600985] (fishbot_cartographer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.698450] (-) TimerEvent: {}
+[0.717025] (fishbot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.793568] (fishbot_bringup) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.798538] (-) TimerEvent: {}
+[0.811451] (fishbot_bringup) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.835593] (fishbot_bringup) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.841530] (fishbot_bringup) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.898704] (-) TimerEvent: {}
+[0.900069] (fishbot_cartographer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.965006] (fishbot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.998861] (-) TimerEvent: {}
+[1.083993] (fishbot_cartographer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.099007] (-) TimerEvent: {}
+[1.115110] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.115988] (fishbot_bringup) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nvidia/fishbot_ws/src/fishbot_bringup/include>\n'}
+[1.116235] (fishbot_bringup) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.119133] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.124035] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.128018] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.144777] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.145252] (fishbot_bringup) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.147454] (fishbot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.149908] (fishbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.175670] (fishbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.183432] (fishbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/fishbot_ws/src/build/fishbot_bringup\n'}
+[1.199430] (-) TimerEvent: {}
+[1.242773] (fishbot_bringup) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fishbot_bringup\x1b[0m\n'}
+[1.258845] (fishbot_cartographer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.260777] (fishbot_bringup) StderrLine: {'line': b"gmake[2]: Warning: File '/home/nvidia/fishbot_ws/src/fishbot_bringup/src/fishbot_bringup.cpp' has modification time 239904 s in the future\n"}
+[1.261698] (fishbot_cartographer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.264359] (fishbot_cartographer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.266730] (fishbot_cartographer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.269171] (fishbot_cartographer) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.275084] (fishbot_cartographer) StdoutLine: {'line': b'-- Generating done\n'}
+[1.277002] (fishbot_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o\x1b[0m\n'}
+[1.277868] (fishbot_cartographer) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/fishbot_ws/src/build/fishbot_cartographer\n'}
+[1.287216] (fishbot_cartographer) CommandEnded: {'returncode': 0}
+[1.288411] (fishbot_cartographer) JobProgress: {'identifier': 'fishbot_cartographer', 'progress': 'build'}
+[1.290218] (fishbot_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tegra-ubuntu:@/tmp/.ICE-unix/2702,unix/tegra-ubuntu:/tmp/.ICE-unix/2702'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae64cfa7_2a92_491a_bc0f_82bff2d50f2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/share/gazebo-11/cmake'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description:/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake::/home/nvidia/fishbot_ws/src/install/fishbot_description:/opt/ros/humble')]), 'shell': False}
+[1.300524] (-) TimerEvent: {}
+[1.372597] (fishbot_cartographer) CommandEnded: {'returncode': 0}
+[1.373931] (fishbot_cartographer) JobProgress: {'identifier': 'fishbot_cartographer', 'progress': 'install'}
+[1.392031] (fishbot_cartographer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer'], 'cwd': '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tegra-ubuntu:@/tmp/.ICE-unix/2702,unix/tegra-ubuntu:/tmp/.ICE-unix/2702'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae64cfa7_2a92_491a_bc0f_82bff2d50f2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/share/gazebo-11/cmake'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description:/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/fishbot_ws/src/build/fishbot_cartographer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake::/home/nvidia/fishbot_ws/src/install/fishbot_description:/opt/ros/humble')]), 'shell': False}
+[1.400698] (-) TimerEvent: {}
+[1.405226] (fishbot_cartographer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.405768] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/config\n'}
+[1.406666] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_2d.lua\n'}
+[1.406849] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_2d_former.lua\n'}
+[1.406974] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/launch\n'}
+[1.407097] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/launch/cartographer.launch.py\n'}
+[1.407211] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/rviz\n'}
+[1.407438] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/ament_index/resource_index/package_run_dependencies/fishbot_cartographer\n'}
+[1.407641] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/ament_index/resource_index/parent_prefix_path/fishbot_cartographer\n'}
+[1.407838] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.sh\n'}
+[1.408043] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.dsv\n'}
+[1.408168] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.sh\n'}
+[1.408338] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.dsv\n'}
+[1.408463] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.bash\n'}
+[1.408615] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.sh\n'}
+[1.408772] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.zsh\n'}
+[1.408976] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.dsv\n'}
+[1.409369] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv\n'}
+[1.409693] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/ament_index/resource_index/packages/fishbot_cartographer\n'}
+[1.409966] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig.cmake\n'}
+[1.410147] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig-version.cmake\n'}
+[1.410326] (fishbot_cartographer) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_cartographer/share/fishbot_cartographer/package.xml\n'}
+[1.416317] (fishbot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/fishbot_description', 'build', '--build-base', '/home/nvidia/fishbot_ws/src/build/fishbot_description/build', 'install', '--record', '/home/nvidia/fishbot_ws/src/build/fishbot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nvidia/fishbot_ws/src/fishbot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nvidia', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nvidia', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.4.3', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2702', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/nvidia/fishbot_ws/src/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nvidia', 'JETSON_MODULE': '', 'JETSON_SERIAL_NUMBER': '1424624348657', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nvidia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/mnt/nova_ssd/workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tegra-ubuntu:@/tmp/.ICE-unix/2702,unix/tegra-ubuntu:/tmp/.ICE-unix/2702', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ae64cfa7_2a92_491a_bc0f_82bff2d50f2c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'gazebo_DIR': '/usr/share/gazebo-11/cmake', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/nvidia/fishbot_ws/src/install/fishbot_description:/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/nvidia/fishbot_ws/src/build/fishbot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nvidia/fishbot_ws/src/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.2', 'CMAKE_PREFIX_PATH': '/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake:'}, 'shell': False}
+[1.433518] (fishbot_cartographer) CommandEnded: {'returncode': 0}
+[1.463845] (fishbot_cartographer) JobEnded: {'identifier': 'fishbot_cartographer', 'rc': 0}
+[1.500870] (-) TimerEvent: {}
+[1.601694] (-) TimerEvent: {}
+[1.702621] (-) TimerEvent: {}
+[1.803254] (-) TimerEvent: {}
+[1.884131] (fishbot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.886753] (fishbot_description) StdoutLine: {'line': b'writing ../build/fishbot_description/fishbot_description.egg-info/PKG-INFO\n'}
+[1.887462] (fishbot_description) StdoutLine: {'line': b'writing dependency_links to ../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt\n'}
+[1.887779] (fishbot_description) StdoutLine: {'line': b'writing entry points to ../build/fishbot_description/fishbot_description.egg-info/entry_points.txt\n'}
+[1.888030] (fishbot_description) StdoutLine: {'line': b'writing requirements to ../build/fishbot_description/fishbot_description.egg-info/requires.txt\n'}
+[1.888211] (fishbot_description) StdoutLine: {'line': b'writing top-level names to ../build/fishbot_description/fishbot_description.egg-info/top_level.txt\n'}
+[1.892602] (fishbot_description) StdoutLine: {'line': b"reading manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'\n"}
+[1.893887] (fishbot_description) StdoutLine: {'line': b"writing manifest file '../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'\n"}
+[1.894598] (fishbot_description) StdoutLine: {'line': b'running build\n'}
+[1.894772] (fishbot_description) StdoutLine: {'line': b'running build_py\n'}
+[1.895141] (fishbot_description) StdoutLine: {'line': b'running install\n'}
+[1.895784] (fishbot_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.898361] (fishbot_description) StdoutLine: {'line': b'byte-compiling /home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.899016] (fishbot_description) StdoutLine: {'line': b'running install_data\n'}
+[1.899271] (fishbot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.902930] (fishbot_description) StdoutLine: {'line': b"removing '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.903296] (-) TimerEvent: {}
+[1.903577] (fishbot_description) StdoutLine: {'line': b'Copying ../build/fishbot_description/fishbot_description.egg-info to /home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info\n'}
+[1.905759] (fishbot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.944661] (fishbot_description) StdoutLine: {'line': b"writing list of installed files to '/home/nvidia/fishbot_ws/src/build/fishbot_description/install.log'\n"}
+[2.003513] (-) TimerEvent: {}
+[2.040596] (fishbot_description) CommandEnded: {'returncode': 0}
+[2.052580] (fishbot_description) JobEnded: {'identifier': 'fishbot_description', 'rc': 0}
+[2.103692] (-) TimerEvent: {}
+[2.204389] (-) TimerEvent: {}
+[2.305198] (-) TimerEvent: {}
+[2.406357] (-) TimerEvent: {}
+[2.507140] (-) TimerEvent: {}
+[2.607969] (-) TimerEvent: {}
+[2.709101] (-) TimerEvent: {}
+[2.809755] (-) TimerEvent: {}
+[2.910429] (-) TimerEvent: {}
+[3.011061] (-) TimerEvent: {}
+[3.111693] (-) TimerEvent: {}
+[3.212364] (-) TimerEvent: {}
+[3.313274] (-) TimerEvent: {}
+[3.414546] (-) TimerEvent: {}
+[3.515227] (-) TimerEvent: {}
+[3.616041] (-) TimerEvent: {}
+[3.716678] (-) TimerEvent: {}
+[3.817413] (-) TimerEvent: {}
+[3.918310] (-) TimerEvent: {}
+[4.019159] (-) TimerEvent: {}
+[4.120078] (-) TimerEvent: {}
+[4.220960] (-) TimerEvent: {}
+[4.321791] (-) TimerEvent: {}
+[4.422455] (-) TimerEvent: {}
+[4.523090] (-) TimerEvent: {}
+[4.623792] (-) TimerEvent: {}
+[4.724659] (-) TimerEvent: {}
+[4.825590] (-) TimerEvent: {}
+[4.927027] (-) TimerEvent: {}
+[5.027998] (-) TimerEvent: {}
+[5.128896] (-) TimerEvent: {}
+[5.229735] (-) TimerEvent: {}
+[5.330521] (-) TimerEvent: {}
+[5.431201] (-) TimerEvent: {}
+[5.531902] (-) TimerEvent: {}
+[5.633328] (-) TimerEvent: {}
+[5.734015] (-) TimerEvent: {}
+[5.834672] (-) TimerEvent: {}
+[5.935382] (-) TimerEvent: {}
+[6.036072] (-) TimerEvent: {}
+[6.137537] (-) TimerEvent: {}
+[6.238191] (-) TimerEvent: {}
+[6.338831] (-) TimerEvent: {}
+[6.439498] (-) TimerEvent: {}
+[6.540172] (-) TimerEvent: {}
+[6.640837] (-) TimerEvent: {}
+[6.741529] (-) TimerEvent: {}
+[6.842169] (-) TimerEvent: {}
+[6.942824] (-) TimerEvent: {}
+[7.043539] (-) TimerEvent: {}
+[7.144629] (-) TimerEvent: {}
+[7.245866] (-) TimerEvent: {}
+[7.346513] (-) TimerEvent: {}
+[7.447187] (-) TimerEvent: {}
+[7.547851] (-) TimerEvent: {}
+[7.648525] (-) TimerEvent: {}
+[7.749177] (-) TimerEvent: {}
+[7.849826] (-) TimerEvent: {}
+[7.950472] (-) TimerEvent: {}
+[8.051110] (-) TimerEvent: {}
+[8.151758] (-) TimerEvent: {}
+[8.252392] (-) TimerEvent: {}
+[8.353014] (-) TimerEvent: {}
+[8.453662] (-) TimerEvent: {}
+[8.554297] (-) TimerEvent: {}
+[8.654940] (-) TimerEvent: {}
+[8.755632] (-) TimerEvent: {}
+[8.856412] (-) TimerEvent: {}
+[8.957131] (-) TimerEvent: {}
+[9.057880] (-) TimerEvent: {}
+[9.158546] (-) TimerEvent: {}
+[9.259200] (-) TimerEvent: {}
+[9.359860] (-) TimerEvent: {}
+[9.460497] (-) TimerEvent: {}
+[9.561173] (-) TimerEvent: {}
+[9.662001] (-) TimerEvent: {}
+[9.762674] (-) TimerEvent: {}
+[9.863383] (-) TimerEvent: {}
+[9.964041] (-) TimerEvent: {}
+[10.064696] (-) TimerEvent: {}
+[10.165333] (-) TimerEvent: {}
+[10.265933] (-) TimerEvent: {}
+[10.366684] (-) TimerEvent: {}
+[10.467405] (-) TimerEvent: {}
+[10.568124] (-) TimerEvent: {}
+[10.668978] (-) TimerEvent: {}
+[10.770064] (-) TimerEvent: {}
+[10.870815] (-) TimerEvent: {}
+[10.971571] (-) TimerEvent: {}
+[11.072362] (-) TimerEvent: {}
+[11.173033] (-) TimerEvent: {}
+[11.273908] (-) TimerEvent: {}
+[11.374870] (-) TimerEvent: {}
+[11.475703] (-) TimerEvent: {}
+[11.576315] (-) TimerEvent: {}
+[11.677027] (-) TimerEvent: {}
+[11.777698] (-) TimerEvent: {}
+[11.878217] (-) TimerEvent: {}
+[11.979059] (-) TimerEvent: {}
+[12.079612] (-) TimerEvent: {}
+[12.180148] (-) TimerEvent: {}
+[12.280821] (-) TimerEvent: {}
+[12.381450] (-) TimerEvent: {}
+[12.481987] (-) TimerEvent: {}
+[12.582735] (-) TimerEvent: {}
+[12.683651] (-) TimerEvent: {}
+[12.784252] (-) TimerEvent: {}
+[12.884807] (-) TimerEvent: {}
+[12.985563] (-) TimerEvent: {}
+[13.087535] (-) TimerEvent: {}
+[13.188584] (-) TimerEvent: {}
+[13.289421] (-) TimerEvent: {}
+[13.390089] (-) TimerEvent: {}
+[13.490825] (-) TimerEvent: {}
+[13.591578] (-) TimerEvent: {}
+[13.692381] (-) TimerEvent: {}
+[13.793242] (-) TimerEvent: {}
+[13.894038] (-) TimerEvent: {}
+[13.994883] (-) TimerEvent: {}
+[14.095785] (-) TimerEvent: {}
+[14.196805] (-) TimerEvent: {}
+[14.297783] (-) TimerEvent: {}
+[14.398649] (-) TimerEvent: {}
+[14.499464] (-) TimerEvent: {}
+[14.600294] (-) TimerEvent: {}
+[14.701133] (-) TimerEvent: {}
+[14.801956] (-) TimerEvent: {}
+[14.902783] (-) TimerEvent: {}
+[15.003600] (-) TimerEvent: {}
+[15.104395] (-) TimerEvent: {}
+[15.205275] (-) TimerEvent: {}
+[15.306083] (-) TimerEvent: {}
+[15.406910] (-) TimerEvent: {}
+[15.507730] (-) TimerEvent: {}
+[15.608536] (-) TimerEvent: {}
+[15.709422] (-) TimerEvent: {}
+[15.810250] (-) TimerEvent: {}
+[15.911087] (-) TimerEvent: {}
+[16.011975] (-) TimerEvent: {}
+[16.113293] (-) TimerEvent: {}
+[16.213936] (-) TimerEvent: {}
+[16.314569] (-) TimerEvent: {}
+[16.415182] (-) TimerEvent: {}
+[16.515799] (-) TimerEvent: {}
+[16.616432] (-) TimerEvent: {}
+[16.717056] (-) TimerEvent: {}
+[16.817708] (-) TimerEvent: {}
+[16.918417] (-) TimerEvent: {}
+[17.019134] (-) TimerEvent: {}
+[17.119815] (-) TimerEvent: {}
+[17.220465] (-) TimerEvent: {}
+[17.321093] (-) TimerEvent: {}
+[17.421710] (-) TimerEvent: {}
+[17.522356] (-) TimerEvent: {}
+[17.622995] (-) TimerEvent: {}
+[17.723639] (-) TimerEvent: {}
+[17.824320] (-) TimerEvent: {}
+[17.924977] (-) TimerEvent: {}
+[18.025675] (-) TimerEvent: {}
+[18.126346] (-) TimerEvent: {}
+[18.150610] (fishbot_bringup) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fishbot_bringup\x1b[0m\n'}
+[18.226518] (-) TimerEvent: {}
+[18.327228] (-) TimerEvent: {}
+[18.427943] (-) TimerEvent: {}
+[18.528671] (-) TimerEvent: {}
+[18.629408] (-) TimerEvent: {}
+[18.730089] (-) TimerEvent: {}
+[18.830816] (-) TimerEvent: {}
+[18.931482] (-) TimerEvent: {}
+[19.012487] (fishbot_bringup) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[19.029017] (fishbot_bringup) StdoutLine: {'line': b'[100%] Built target fishbot_bringup\n'}
+[19.031565] (-) TimerEvent: {}
+[19.050845] (fishbot_bringup) CommandEnded: {'returncode': 0}
+[19.052587] (fishbot_bringup) JobProgress: {'identifier': 'fishbot_bringup', 'progress': 'install'}
+[19.052985] (fishbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/fishbot_ws/src/build/fishbot_bringup'], 'cwd': '/home/nvidia/fishbot_ws/src/build/fishbot_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nvidia'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2702'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nvidia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tegra-ubuntu:@/tmp/.ICE-unix/2702,unix/tegra-ubuntu:/tmp/.ICE-unix/2702'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae64cfa7_2a92_491a_bc0f_82bff2d50f2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('gazebo_DIR', '/usr/share/gazebo-11/cmake'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description:/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/fishbot_ws/src/build/fishbot_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=00a9dfadcbca15eb4664bbbf67d91f25'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/fishbot_ws/src/install/fishbot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/fishbot_ws/src/install/fishbot_bringup:/usr/share/gazebo-11/cmake:/usr/share/gazebo/cmake::/home/nvidia/fishbot_ws/src/install/fishbot_description:/opt/ros/humble')]), 'shell': False}
+[19.074774] (fishbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.076116] (fishbot_bringup) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup\n'}
+[19.087043] (fishbot_bringup) StdoutLine: {'line': b'-- Set runtime path of "/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup" to ""\n'}
+[19.087461] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch\n'}
+[19.087610] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/fishbot_bringup.launch.py\n'}
+[19.087738] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup\n'}
+[19.087943] (fishbot_bringup) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup\n'}
+[19.088075] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh\n'}
+[19.088238] (fishbot_bringup) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv\n'}
+[19.088360] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh\n'}
+[19.088478] (fishbot_bringup) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv\n'}
+[19.088632] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash\n'}
+[19.088791] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh\n'}
+[19.088909] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh\n'}
+[19.089044] (fishbot_bringup) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv\n'}
+[19.089196] (fishbot_bringup) StdoutLine: {'line': b'-- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv\n'}
+[19.089551] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup\n'}
+[19.089711] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake\n'}
+[19.089872] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake\n'}
+[19.089994] (fishbot_bringup) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.xml\n'}
+[19.093901] (fishbot_bringup) CommandEnded: {'returncode': 0}
+[19.132226] (-) TimerEvent: {}
+[19.139218] (fishbot_bringup) JobEnded: {'identifier': 'fishbot_bringup', 'rc': 0}
+[19.141617] (-) EventReactorShutdown: {}

@@ -1,0 +1,451 @@
+[0.000000] (-) TimerEvent: {}
+[0.000700] (lslidar_msgs) JobQueued: {'identifier': 'lslidar_msgs', 'dependencies': OrderedDict()}
+[0.000929] (lslidar_driver) JobQueued: {'identifier': 'lslidar_driver', 'dependencies': OrderedDict([('lslidar_msgs', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs')])}
+[0.001193] (lslidar_msgs) JobStarted: {'identifier': 'lslidar_msgs'}
+[0.013816] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'cmake'}
+[0.014768] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'build'}
+[0.015728] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/roadRunner/2d_slam/build/lslidar_msgs', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/roadRunner/2d_slam/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.237.115 58932 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/roadRunner'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4696d9e8-dad6-43f3-b117-08ec62b2e932.sock'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install:/home/nvidia/DDSM_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/DDSM_ws/install/robot_control/bin:/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/home/nvidia/.local/bin:/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ed0e7a570e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/home/nvidia/DDSM_ws/install/camera_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/roadRunner/2d_slam/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.237.115 58932 192.168.237.211 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/nvidia/DDSM_ws/install/robot_nav/lib/python3.10/site-packages:/home/nvidia/DDSM_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/camera_publisher:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[0.029546] (lslidar_msgs) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/nvidia/roadRunner/2d_slam/build/lslidar_msgs/CMakeCache.txt is different than the directory /home/nvidia/2d_slam/build/lslidar_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.055719] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099462] (-) TimerEvent: {}
+[0.199933] (-) TimerEvent: {}
+[0.277883] (lslidar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.300142] (-) TimerEvent: {}
+[0.315438] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.318839] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.327364] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.341751] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.360371] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.395133] (lslidar_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.400275] (-) TimerEvent: {}
+[0.435629] (lslidar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.445834] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.504083] (-) TimerEvent: {}
+[0.604617] (-) TimerEvent: {}
+[0.705113] (-) TimerEvent: {}
+[0.805623] (-) TimerEvent: {}
+[0.906132] (-) TimerEvent: {}
+[1.002227] (lslidar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.006221] (-) TimerEvent: {}
+[1.106632] (-) TimerEvent: {}
+[1.207173] (-) TimerEvent: {}
+[1.307688] (-) TimerEvent: {}
+[1.408239] (-) TimerEvent: {}
+[1.508756] (-) TimerEvent: {}
+[1.609262] (-) TimerEvent: {}
+[1.709777] (-) TimerEvent: {}
+[1.715291] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.809913] (-) TimerEvent: {}
+[1.910853] (-) TimerEvent: {}
+[1.956001] (lslidar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.995123] (lslidar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.010972] (-) TimerEvent: {}
+[2.037448] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.037843] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.037995] (lslidar_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.094435] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.097333] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.098698] (lslidar_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.104286] (lslidar_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.111050] (-) TimerEvent: {}
+[2.166132] (lslidar_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.185696] (lslidar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/2d_slam/build/lslidar_msgs\n'}
+[2.211211] (-) TimerEvent: {}
+[2.235068] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.249322] (lslidar_msgs) StdoutLine: {'line': b'[  1%] Built target lslidar_msgs__cpp\n'}
+[2.258677] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target lslidar_msgs__rosidl_generator_c\n'}
+[2.268153] (lslidar_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_lslidar_msgs\n'}
+[2.268569] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.272327] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.277231] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.278508] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.281288] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.294225] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.300622] (lslidar_msgs) StdoutLine: {'line': b'[ 30%] Built target lslidar_msgs__rosidl_typesupport_cpp\n'}
+[2.301041] (lslidar_msgs) StdoutLine: {'line': b'[ 34%] Built target lslidar_msgs__rosidl_typesupport_introspection_c\n'}
+[2.311358] (-) TimerEvent: {}
+[2.315592] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.315941] (lslidar_msgs) StdoutLine: {'line': b'[ 61%] Built target lslidar_msgs__rosidl_typesupport_c\n'}
+[2.316828] (lslidar_msgs) StdoutLine: {'line': b'[ 68%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.317213] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.349430] (lslidar_msgs) StdoutLine: {'line': b'[ 79%] Built target lslidar_msgs\n'}
+[2.380706] (lslidar_msgs) StdoutLine: {'line': b'[ 80%] Built target lslidar_msgs__py\n'}
+[2.398802] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_py\x1b[0m\n'}
+[2.411500] (-) TimerEvent: {}
+[2.424488] (lslidar_msgs) StdoutLine: {'line': b'[ 90%] Built target lslidar_msgs__rosidl_generator_py\n'}
+[2.440358] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.441213] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.442688] (lslidar_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.466705] (lslidar_msgs) StdoutLine: {'line': b'[ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.474140] (lslidar_msgs) StdoutLine: {'line': b'[ 96%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.479563] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext\n'}
+[2.511640] (-) TimerEvent: {}
+[2.612160] (-) TimerEvent: {}
+[2.712648] (-) TimerEvent: {}
+[2.714385] (lslidar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.715706] (lslidar_msgs) StdoutLine: {'line': b'writing lslidar_msgs.egg-info/PKG-INFO\n'}
+[2.716223] (lslidar_msgs) StdoutLine: {'line': b'writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt\n'}
+[2.716559] (lslidar_msgs) StdoutLine: {'line': b'writing top-level names to lslidar_msgs.egg-info/top_level.txt\n'}
+[2.722837] (lslidar_msgs) StdoutLine: {'line': b"reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[2.723758] (lslidar_msgs) StdoutLine: {'line': b"writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'\n"}
+[2.779613] (lslidar_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_lslidar_msgs_egg\n'}
+[2.797906] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[2.799132] (lslidar_msgs) JobProgress: {'identifier': 'lslidar_msgs', 'progress': 'install'}
+[2.812791] (-) TimerEvent: {}
+[2.814085] (lslidar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/roadRunner/2d_slam/build/lslidar_msgs'], 'cwd': '/home/nvidia/roadRunner/2d_slam/build/lslidar_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.237.115 58932 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/roadRunner'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4696d9e8-dad6-43f3-b117-08ec62b2e932.sock'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install:/home/nvidia/DDSM_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/DDSM_ws/install/robot_control/bin:/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/home/nvidia/.local/bin:/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ed0e7a570e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/home/nvidia/DDSM_ws/install/camera_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/roadRunner/2d_slam/build/lslidar_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.237.115 58932 192.168.237.211 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/nvidia/DDSM_ws/install/robot_nav/lib/python3.10/site-packages:/home/nvidia/DDSM_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/camera_publisher:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[2.826897] (lslidar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.827361] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs\n'}
+[2.827509] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[2.827624] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[2.827731] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h\n'}
+[2.827832] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.827934] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[2.833705] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h\n'}
+[2.833935] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h\n'}
+[2.834099] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h\n'}
+[2.834349] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h\n'}
+[2.834472] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h\n'}
+[2.834615] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c\n'}
+[2.834761] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h\n'}
+[2.834894] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h\n'}
+[2.834999] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h\n'}
+[2.835136] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h\n'}
+[2.835269] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h\n'}
+[2.835371] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h\n'}
+[2.835551] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h\n'}
+[2.835764] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c\n'}
+[2.836205] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h\n'}
+[2.836359] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h\n'}
+[2.836460] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c\n'}
+[2.836557] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c\n'}
+[2.836652] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c\n'}
+[2.836745] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h\n'}
+[2.836838] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h\n'}
+[2.836930] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h\n'}
+[2.837025] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h\n'}
+[2.837118] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h\n'}
+[2.837226] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh\n'}
+[2.837323] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv\n'}
+[2.837417] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so\n'}
+[2.837509] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[2.837614] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[2.837711] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[2.837803] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[2.837897] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h\n'}
+[2.837992] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[2.838084] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h\n'}
+[2.838176] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h\n'}
+[2.838267] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.838371] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.838463] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[2.838559] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[2.838651] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp\n'}
+[2.838743] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp\n'}
+[2.838837] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[2.838930] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp\n'}
+[2.839035] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp\n'}
+[2.839132] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp\n'}
+[2.839227] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp\n'}
+[2.839320] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp\n'}
+[2.839413] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp\n'}
+[2.839504] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp\n'}
+[2.839595] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp\n'}
+[2.839687] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp\n'}
+[2.839780] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp\n'}
+[2.839873] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp\n'}
+[2.839991] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp\n'}
+[2.840094] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp\n'}
+[2.840190] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp\n'}
+[2.840283] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp\n'}
+[2.840376] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp\n'}
+[2.840479] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp\n'}
+[2.840581] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp\n'}
+[2.840684] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp\n'}
+[2.840780] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp\n'}
+[2.840873] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp\n'}
+[2.840964] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.841056] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp\n'}
+[2.841149] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp\n'}
+[2.841240] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[2.841330] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[2.841419] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[2.841511] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.841602] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.841696] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.841787] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.841886] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.841980] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps\n'}
+[2.842073] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.842165] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.842255] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[2.842346] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[2.842437] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.842527] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[2.842621] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c\n'}
+[2.842729] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c\n'}
+[2.842822] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h\n'}
+[2.842914] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c\n'}
+[2.843006] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h\n'}
+[2.843100] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[2.843191] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h\n'}
+[2.843282] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c\n'}
+[2.843385] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c\n'}
+[2.843477] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[2.843568] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.843669] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so\n'}
+[2.843760] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs\n'}
+[2.843851] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg\n'}
+[2.843942] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail\n'}
+[2.844063] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.844160] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.844255] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp\n'}
+[2.844346] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp\n'}
+[2.844438] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.844532] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.844632] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.844735] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp\n'}
+[2.844829] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp\n'}
+[2.844922] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp\n'}
+[2.845017] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.845109] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so\n'}
+[2.845200] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh\n'}
+[2.845292] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv\n'}
+[2.845382] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info\n'}
+[2.845475] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.845567] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.845663] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt\n'}
+[2.845754] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO\n'}
+[2.845845] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs\n'}
+[2.845937] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.846030] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg\n'}
+[2.846120] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c\n'}
+[2.846210] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py\n'}
+[2.846302] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c\n'}
+[2.846403] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c\n'}
+[2.846495] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py\n'}
+[2.846587] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c\n'}
+[2.846690] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c\n'}
+[2.846782] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py\n'}
+[2.846882] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py\n'}
+[2.847384] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py\n'}
+[2.847495] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py\n'}
+[2.847596] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.847693] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.848098] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.848267] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.848374] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.848475] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so\n'}
+[2.848570] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py\n'}
+[2.891644] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...\n"}
+[2.892022] (lslidar_msgs) StdoutLine: {'line': b"Compiling '/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...\n"}
+[2.892159] (lslidar_msgs) StdoutLine: {'line': b"Listing '/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...\n"}
+[2.901596] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.902012] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.902239] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.902592] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so\n'}
+[2.902840] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl\n'}
+[2.903041] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl\n'}
+[2.903262] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl\n'}
+[2.903423] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl\n'}
+[2.903573] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl\n'}
+[2.903712] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg\n'}
+[2.903811] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg\n'}
+[2.903910] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg\n'}
+[2.904103] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg\n'}
+[2.904208] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg\n'}
+[2.904345] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs\n'}
+[2.904478] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs\n'}
+[2.904584] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh\n'}
+[2.904736] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv\n'}
+[2.904891] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh\n'}
+[2.904990] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv\n'}
+[2.905116] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash\n'}
+[2.905212] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh\n'}
+[2.905341] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh\n'}
+[2.905471] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv\n'}
+[2.905595] (lslidar_msgs) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/package.dsv\n'}
+[2.905743] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs\n'}
+[2.905847] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake\n'}
+[2.905981] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.906135] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.906269] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.906506] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.906638] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.906764] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.906914] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.907088] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.907241] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.907394] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.907567] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.907708] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.907835] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.907931] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.908051] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.908149] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.908243] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.908341] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.908435] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.908528] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.908642] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.908736] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.908828] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.908936] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake\n'}
+[2.909030] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake\n'}
+[2.909124] (lslidar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/package.xml\n'}
+[2.911379] (lslidar_msgs) CommandEnded: {'returncode': 0}
+[2.912896] (-) TimerEvent: {}
+[2.946813] (lslidar_msgs) JobEnded: {'identifier': 'lslidar_msgs', 'rc': 0}
+[2.952180] (lslidar_driver) JobStarted: {'identifier': 'lslidar_driver'}
+[2.961471] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'cmake'}
+[2.962969] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'build'}
+[2.963648] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nvidia/roadRunner/2d_slam/build/lslidar_driver', '--', '-j8', '-l8'], 'cwd': '/home/nvidia/roadRunner/2d_slam/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.237.115 58932 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/nvidia/2d_slam/install/lslidar_msgs/lib:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/roadRunner'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4696d9e8-dad6-43f3-b117-08ec62b2e932.sock'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install:/home/nvidia/DDSM_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/DDSM_ws/install/robot_control/bin:/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/home/nvidia/.local/bin:/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ed0e7a570e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/home/nvidia/DDSM_ws/install/camera_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/roadRunner/2d_slam/build/lslidar_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.237.115 58932 192.168.237.211 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/nvidia/DDSM_ws/install/robot_nav/lib/python3.10/site-packages:/home/nvidia/DDSM_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/camera_publisher:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[2.980164] (lslidar_driver) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/nvidia/roadRunner/2d_slam/build/lslidar_driver/CMakeCache.txt is different than the directory /home/nvidia/2d_slam/build/lslidar_driver where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[3.008905] (lslidar_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.013016] (-) TimerEvent: {}
+[3.113502] (-) TimerEvent: {}
+[3.214020] (-) TimerEvent: {}
+[3.250443] (lslidar_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.314170] (-) TimerEvent: {}
+[3.321915] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.326611] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.336119] (lslidar_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.350884] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.369716] (lslidar_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.414321] (-) TimerEvent: {}
+[3.416475] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.418772] (lslidar_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.514467] (-) TimerEvent: {}
+[3.580358] (lslidar_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.614616] (-) TimerEvent: {}
+[3.669824] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.682344] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[3.714759] (-) TimerEvent: {}
+[3.718621] (lslidar_driver) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[3.814906] (-) TimerEvent: {}
+[3.915438] (-) TimerEvent: {}
+[4.016073] (-) TimerEvent: {}
+[4.116612] (-) TimerEvent: {}
+[4.212986] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.216764] (-) TimerEvent: {}
+[4.224071] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.316920] (-) TimerEvent: {}
+[4.417467] (-) TimerEvent: {}
+[4.460073] (lslidar_driver) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[4.469499] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.478236] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[4.517603] (-) TimerEvent: {}
+[4.618127] (-) TimerEvent: {}
+[4.678487] (lslidar_driver) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[4.718273] (-) TimerEvent: {}
+[4.818806] (-) TimerEvent: {}
+[4.896035] (lslidar_driver) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[4.918962] (-) TimerEvent: {}
+[5.019509] (-) TimerEvent: {}
+[5.098614] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[5.099209] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[5.099794] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[5.100421] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[5.101144] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[5.101732] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[5.102226] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[5.102666] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[5.103070] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[5.103622] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[5.104170] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[5.104604] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[5.105215] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[5.105793] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[5.106327] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[5.106895] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[5.107453] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[5.107965] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[5.108618] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[5.109094] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[5.110104] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[5.110483] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[5.110845] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[5.111215] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[5.111743] (lslidar_driver) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[5.113741] (lslidar_driver) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.2 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[5.119582] (-) TimerEvent: {}
+[5.138279] (lslidar_driver) StdoutLine: {'line': b'-- Found lslidar_msgs: 1.2.0 (/home/nvidia/2d_slam/install/lslidar_msgs/share/lslidar_msgs/cmake)\n'}
+[5.159422] (lslidar_driver) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[5.184223] (lslidar_driver) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[5.219748] (-) TimerEvent: {}
+[5.271019] (lslidar_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[5.278940] (lslidar_driver) StdoutLine: {'line': b'-- Found ros2_control: 2.48.0 (/opt/ros/humble/share/ros2_control/cmake)\n'}
+[5.279351] (lslidar_driver) StdoutLine: {'line': b'-- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[5.319891] (-) TimerEvent: {}
+[5.420458] (-) TimerEvent: {}
+[5.520981] (-) TimerEvent: {}
+[5.606725] (lslidar_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.621128] (-) TimerEvent: {}
+[5.721639] (-) TimerEvent: {}
+[5.766863] (lslidar_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[5.793648] (lslidar_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/nvidia/2d_slam/build/lslidar_driver\n'}
+[5.821793] (-) TimerEvent: {}
+[5.881321] (lslidar_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lslidar_driver_node\x1b[0m\n'}
+[5.921946] (-) TimerEvent: {}
+[5.950123] (lslidar_driver) StdoutLine: {'line': b'[100%] Built target lslidar_driver_node\n'}
+[5.968383] (lslidar_driver) CommandEnded: {'returncode': 0}
+[5.969595] (lslidar_driver) JobProgress: {'identifier': 'lslidar_driver', 'progress': 'install'}
+[5.970190] (lslidar_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nvidia/roadRunner/2d_slam/build/lslidar_driver'], 'cwd': '/home/nvidia/roadRunner/2d_slam/build/lslidar_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nvidia'), ('SSH_CLIENT', '192.168.237.115 58932 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/nvidia/2d_slam/install/lslidar_msgs/lib:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/nvidia'), ('OLDPWD', '/home/nvidia/roadRunner'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4696d9e8-dad6-43f3-b117-08ec62b2e932.sock'), ('JETSON_L4T', '36.4.3'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install:/home/nvidia/DDSM_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nvidia'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1424624348657'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ISAAC_ROS_WS', '/mnt/nova_ssd/workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nvidia/DDSM_ws/install/robot_control/bin:/home/nvidia/.vscode-server/cli/servers/Stable-ddc367ed5c8936efe395cffeec279b04ffd7db78/server/bin/remote-cli:/home/nvidia/.local/bin:/opt/ros/humble/bin:/home/nvidia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nvidia/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ed0e7a570e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/nvidia/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/home/nvidia/DDSM_ws/install/camera_publisher:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/nvidia/roadRunner/2d_slam/build/lslidar_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.237.115 58932 192.168.237.211 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nvidia/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/nvidia/DDSM_ws/install/robot_nav/lib/python3.10/site-packages:/home/nvidia/DDSM_ws/install/robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '6.2'), ('CMAKE_PREFIX_PATH', '/home/nvidia/roadRunner/2d_slam/install/lslidar_msgs:/home/nvidia/roadRunner/2d_slam/install/lslidar_driver:/home/nvidia/roadRunner/2d_slam/install/fishbot_cartographer:/home/nvidia/DDSM_ws/install/camera_publisher:/home/nvidia/DDSM_ws/install/robot_nav:/home/nvidia/DDSM_ws/install/robot_control:/opt/ros/humble')]), 'shell': False}
+[5.982032] (lslidar_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.982514] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[5.982754] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lslidar_interface.launch.py\n'}
+[5.982955] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[5.983097] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[5.983231] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[5.983341] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[5.983472] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[5.983698] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[5.983868] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[5.984401] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[5.984571] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[5.984679] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[5.984832] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params\n'}
+[5.984987] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2\n'}
+[5.985102] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml\n'}
+[5.985241] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml\n'}
+[5.985344] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml\n'}
+[5.985511] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml\n'}
+[5.985670] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2\n'}
+[5.985772] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml\n'}
+[5.985904] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml\n'}
+[5.986006] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml\n'}
+[5.986101] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml\n'}
+[5.986195] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/rviz\n'}
+[5.986290] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz\n'}
+[5.986403] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node\n'}
+[5.986499] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch\n'}
+[5.986593] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lslidar_interface.launch.py\n'}
+[5.986685] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py\n'}
+[5.986777] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py\n'}
+[5.986867] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py\n'}
+[5.986958] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py\n'}
+[5.987049] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py\n'}
+[5.987139] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py\n'}
+[5.987229] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py\n'}
+[5.987323] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py\n'}
+[5.987414] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py\n'}
+[5.987698] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py\n'}
+[5.988056] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver\n'}
+[5.988438] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver\n'}
+[5.989586] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh\n'}
+[5.989771] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv\n'}
+[5.989910] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/path.sh\n'}
+[5.990073] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/environment/path.dsv\n'}
+[5.990247] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.bash\n'}
+[5.990412] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.sh\n'}
+[5.990580] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.zsh\n'}
+[5.990747] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/local_setup.dsv\n'}
+[5.990950] (lslidar_driver) StdoutLine: {'line': b'-- Installing: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/package.dsv\n'}
+[5.991097] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver\n'}
+[5.991343] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.991525] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.991674] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake\n'}
+[5.991822] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake\n'}
+[5.991971] (lslidar_driver) StdoutLine: {'line': b'-- Up-to-date: /home/nvidia/2d_slam/install/lslidar_driver/share/lslidar_driver/package.xml\n'}
+[5.992135] (lslidar_driver) CommandEnded: {'returncode': 0}
+[6.011197] (lslidar_driver) JobEnded: {'identifier': 'lslidar_driver', 'rc': 0}
+[6.012566] (-) EventReactorShutdown: {}

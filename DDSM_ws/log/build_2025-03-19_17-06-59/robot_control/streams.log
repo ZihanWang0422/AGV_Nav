@@ -1,0 +1,29 @@
+[1.585s] Invoking command in '/home/nvidia/ros2_ws/src/robot_control': PYTHONPATH=/home/nvidia/ros2_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/nvidia/ros2_ws/build/robot_control/build install --record /home/nvidia/ros2_ws/build/robot_control/install.log --single-version-externally-managed install_data
+[2.002s] running egg_info
+[2.005s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[2.006s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[2.007s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[2.007s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[2.007s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[2.011s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.012s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[2.013s] running build
+[2.013s] running build_py
+[2.013s] copying robot_control/odom_converter.py -> /home/nvidia/ros2_ws/build/robot_control/build/lib/robot_control
+[2.014s] copying robot_control/serial_controller.py -> /home/nvidia/ros2_ws/build/robot_control/build/lib/robot_control
+[2.014s] running install
+[2.015s] running install_lib
+[2.016s] copying /home/nvidia/ros2_ws/build/robot_control/build/lib/robot_control/odom_converter.py -> /home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control
+[2.016s] copying /home/nvidia/ros2_ws/build/robot_control/build/lib/robot_control/serial_controller.py -> /home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control
+[2.020s] byte-compiling /home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control/odom_converter.py to odom_converter.cpython-310.pyc
+[2.021s] byte-compiling /home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control/serial_controller.py to serial_controller.cpython-310.pyc
+[2.023s] running install_data
+[2.024s] copying launch/navigation.launch.py -> /home/nvidia/ros2_ws/install/robot_control/share/robot_control/launch
+[2.024s] running install_egg_info
+[2.027s] removing '/home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.1-py3.10.egg-info' (and everything under it)
+[2.028s] Copying ../../build/robot_control/robot_control.egg-info to /home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.1-py3.10.egg-info
+[2.029s] running install_scripts
+[2.064s] Installing robot_controller script to /home/nvidia/ros2_ws/install/robot_control/bin
+[2.064s] Installing serial_controller script to /home/nvidia/ros2_ws/install/robot_control/bin
+[2.065s] writing list of installed files to '/home/nvidia/ros2_ws/build/robot_control/install.log'
+[2.143s] Invoked command in '/home/nvidia/ros2_ws/src/robot_control' returned '0': PYTHONPATH=/home/nvidia/ros2_ws/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/ros2_ws/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/nvidia/ros2_ws/build/robot_control/build install --record /home/nvidia/ros2_ws/build/robot_control/install.log --single-version-externally-managed install_data

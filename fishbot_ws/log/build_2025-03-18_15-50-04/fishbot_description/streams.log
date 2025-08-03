@@ -1,0 +1,32 @@
+[1.416s] Invoking command in '/home/nvidia/fishbot_ws/build/fishbot_description': PYTHONPATH=/home/nvidia/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nvidia/fishbot_ws/build/fishbot_description/build
+[1.907s] running develop
+[2.223s] Removing /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot-description.egg-link (link to .)
+[2.310s] Invoked command in '/home/nvidia/fishbot_ws/build/fishbot_description' returned '0': PYTHONPATH=/home/nvidia/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nvidia/fishbot_ws/build/fishbot_description/build
+[2.315s] Invoking command in '/home/nvidia/fishbot_ws/src/fishbot_description': PYTHONPATH=/home/nvidia/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nvidia/fishbot_ws/build/fishbot_description/build install --record /home/nvidia/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data --force
+[2.756s] running egg_info
+[2.757s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[2.758s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[2.758s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[2.758s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[2.758s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[2.762s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[2.763s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[2.763s] running build
+[2.764s] running build_py
+[2.764s] creating /home/nvidia/fishbot_ws/build/fishbot_description/build
+[2.764s] creating /home/nvidia/fishbot_ws/build/fishbot_description/build/lib
+[2.764s] creating /home/nvidia/fishbot_ws/build/fishbot_description/build/lib/fishbot_description
+[2.764s] copying fishbot_description/__init__.py -> /home/nvidia/fishbot_ws/build/fishbot_description/build/lib/fishbot_description
+[2.765s] running install
+[2.765s] running install_lib
+[2.766s] creating /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[2.767s] copying /home/nvidia/fishbot_ws/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[2.768s] byte-compiling /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[2.768s] running install_data
+[2.768s] copying resource/fishbot_description -> /home/nvidia/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[2.769s] copying package.xml -> /home/nvidia/fishbot_ws/install/fishbot_description/share/fishbot_description
+[2.769s] running install_egg_info
+[2.774s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[2.776s] running install_scripts
+[2.811s] writing list of installed files to '/home/nvidia/fishbot_ws/build/fishbot_description/install.log'
+[2.888s] Invoked command in '/home/nvidia/fishbot_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/nvidia/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nvidia/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nvidia/fishbot_ws/build/fishbot_description/build install --record /home/nvidia/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data --force

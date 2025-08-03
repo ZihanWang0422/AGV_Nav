@@ -1,0 +1,5 @@
+[console_scripts]
+cmd_vel_mux = robot_nav.cmd_vel_mux:main
+map_converter = robot_nav.map_converter:main
+odom_to_tf = robot_nav.odom_to_tf:main
+

@@ -1,0 +1,4 @@
+Invoking command in '/home/nvidia/DDSM_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/DDSM_ws/build/camera_publisher -- -j8 -l8
+Invoked command in '/home/nvidia/DDSM_ws/build/camera_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/DDSM_ws/build/camera_publisher -- -j8 -l8
+Invoking command in '/home/nvidia/DDSM_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/DDSM_ws/build/camera_publisher
+Invoked command in '/home/nvidia/DDSM_ws/build/camera_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/DDSM_ws/build/camera_publisher

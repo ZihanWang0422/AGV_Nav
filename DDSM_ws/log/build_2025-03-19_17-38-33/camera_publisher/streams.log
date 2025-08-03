@@ -1,0 +1,20 @@
+[0.035s] Invoking command in '/home/nvidia/ros2_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/robot_nav:/home/nvidia/ros2_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/build/camera_publisher -- -j8 -l8
+[0.930s] Invoked command in '/home/nvidia/ros2_ws/build/camera_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/robot_nav:/home/nvidia/ros2_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/nvidia/ros2_ws/build/camera_publisher -- -j8 -l8
+[0.952s] Invoking command in '/home/nvidia/ros2_ws/build/camera_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/robot_nav:/home/nvidia/ros2_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/build/camera_publisher
+[0.966s] -- Install configuration: ""
+[0.967s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/ament_index/resource_index/package_run_dependencies/camera_publisher
+[0.967s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/ament_index/resource_index/parent_prefix_path/camera_publisher
+[0.967s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.sh
+[0.967s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/ament_prefix_path.dsv
+[0.967s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/path.sh
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/environment/path.dsv
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.bash
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.sh
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.zsh
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/local_setup.dsv
+[0.968s] -- Installing: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/package.dsv
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/ament_index/resource_index/packages/camera_publisher
+[0.968s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig.cmake
+[0.969s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/cmake/camera_publisherConfig-version.cmake
+[0.969s] -- Up-to-date: /home/nvidia/ros2_ws/install/camera_publisher/share/camera_publisher/package.xml
+[0.971s] Invoked command in '/home/nvidia/ros2_ws/build/camera_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nvidia/ros2_ws/install/robot_nav:/home/nvidia/ros2_ws/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/nvidia/ros2_ws/build/camera_publisher

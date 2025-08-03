@@ -1,0 +1,27 @@
+[0.041s] Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_bringup -- -j8 -l8
+[0.598s] [ 50%] [32mBuilding CXX object CMakeFiles/fishbot_bringup.dir/src/fishbot_bringup.cpp.o[0m
+[18.774s] [100%] [32m[1mLinking CXX executable fishbot_bringup[0m
+[19.720s] [100%] Built target fishbot_bringup
+[19.742s] Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nvidia/fishbot_ws/src/build/fishbot_bringup -- -j8 -l8
+[19.746s] Invoking command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_bringup
+[19.762s] -- Install configuration: ""
+[19.762s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup
+[19.776s] -- Set runtime path of "/home/nvidia/fishbot_ws/src/install/fishbot_bringup/lib/fishbot_bringup/fishbot_bringup" to ""
+[19.776s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch
+[19.777s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/launch/fishbot_bringup.launch.py
+[19.777s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/package_run_dependencies/fishbot_bringup
+[19.777s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/parent_prefix_path/fishbot_bringup
+[19.777s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.sh
+[19.777s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/ament_prefix_path.dsv
+[19.777s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.sh
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/environment/path.dsv
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.bash
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.sh
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.zsh
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/local_setup.dsv
+[19.778s] -- Installing: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.dsv
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/ament_index/resource_index/packages/fishbot_bringup
+[19.778s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig.cmake
+[19.779s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/cmake/fishbot_bringupConfig-version.cmake
+[19.779s] -- Up-to-date: /home/nvidia/fishbot_ws/src/install/fishbot_bringup/share/fishbot_bringup/package.xml
+[19.784s] Invoked command in '/home/nvidia/fishbot_ws/src/build/fishbot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nvidia/fishbot_ws/src/build/fishbot_bringup

@@ -1,0 +1,1 @@
+Invoking command in '/home/nvidia/2d_slam/build/fishbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nvidia/2d_slam/src/fishbot_bringup -DCMAKE_INSTALL_PREFIX=/home/nvidia/2d_slam/install/fishbot_bringup

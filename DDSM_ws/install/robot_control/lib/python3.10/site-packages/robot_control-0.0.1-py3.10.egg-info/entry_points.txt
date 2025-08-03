@@ -1,0 +1,4 @@
+[console_scripts]
+robot_controller = robot_control.robot_controller:main
+serial_controller = robot_control.serial_controller:main
+

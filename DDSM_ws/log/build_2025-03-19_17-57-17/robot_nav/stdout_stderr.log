@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/robot_nav/robot_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_nav/robot_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_nav/robot_nav.egg-info/entry_points.txt
+writing requirements to ../../build/robot_nav/robot_nav.egg-info/requires.txt
+writing top-level names to ../../build/robot_nav/robot_nav.egg-info/top_level.txt
+reading manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_nav/odom_to_tf.py -> /home/nvidia/ros2_ws/build/robot_nav/build/lib/robot_nav
+running install
+running install_lib
+copying /home/nvidia/ros2_ws/build/robot_nav/build/lib/robot_nav/odom_to_tf.py -> /home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav
+byte-compiling /home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav/odom_to_tf.py to odom_to_tf.cpython-310.pyc
+running install_data
+  File "/home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav/odom_to_tf.py", line 123
+    main() tracking
+           ^^^^^^^^
+SyntaxError: invalid syntax
+
+running install_egg_info
+removing '/home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_nav/robot_nav.egg-info to /home/nvidia/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.1-py3.10.egg-info
+running install_scripts
+Installing odom_converter script to /home/nvidia/ros2_ws/install/robot_nav/lib/robot_nav
+Installing odom_to_tf script to /home/nvidia/ros2_ws/install/robot_nav/lib/robot_nav
+writing list of installed files to '/home/nvidia/ros2_ws/build/robot_nav/install.log'

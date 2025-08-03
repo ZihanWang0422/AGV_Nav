@@ -1,0 +1,9 @@
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/uninstall.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/camera_publisher_uninstall.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/test.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/edit_cache.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/rebuild_cache.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/list_install_components.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/install.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/install/local.dir
+/home/nvidia/ros2_ws/build/camera_publisher/CMakeFiles/install/strip.dir
